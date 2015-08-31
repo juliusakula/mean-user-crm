@@ -8,7 +8,6 @@ angular.module('core').controller("CarouselCtrl",["$scope","$timeout",function($
         {image:"modules/core/img/skills/Linux.png",link:"https://en.wikipedia.org/wiki/Linux",name:"Linux"},
         {image:"modules/core/img/skills/NodeJS.png",link:"https://nodejs.org/",name:"NodeJS"},
         {image:"modules/core/img/skills/MongoDB.png",link:"https://www.mongodb.org/",name:"MongoDB"},
-        {image:"modules/core/img/skills/Express.png",link:"http://expressjs.com/",name:"Express"},
         {image:"modules/core/img/skills/Grunt.png",link:"http://gruntjs.com",name:"Grunt Taskrunner"},
         {image:"modules/core/img/skills/PHP.png",link:"http://www.php.net",name:"PHP"},
         {image:"modules/core/img/skills/MySQL.png",link:"https://www.mysql.com/",name:"MySQL"},
