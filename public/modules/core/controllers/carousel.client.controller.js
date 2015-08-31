@@ -17,10 +17,10 @@ angular.module('core').controller("CarouselCtrl",["$scope","$timeout",function($
         {image:"modules/core/img/skills/HTML.png",link:"http://dev.w3.org/html5/html-author",name:"HTML5"},
         {image:"modules/core/img/skills/CSS.png",link:"http://www.w3.org/Style/CSS/Overview.en.html",name:"CSS3"},
         {image:"modules/core/img/skills/Bootstrap.png",link:"http://getbootstrap.com",name:"Bootstrap"},
+        {image:"modules/core/img/skills/TravisCI.png",link:"https://travis-ci.org",name:"TravisCI"},
         {image:"modules/core/img/skills/Yeoman.png",link:"http://yeoman.io",name:"Yeoman"},
-        {image:"modules/core/img/skills/jQuery.png",link:"https://jquery.com",name:"jQuery"},
-        {image:"modules/core/img/skills/Git.png",link:"https://git-scm.com",name:"Git"},
-        {image:"modules/core/img/skills/Bitcoin.png",link:"https://bitcoin.org/",name:"Bitcoin"}];
+        {image:"modules/core/img/skills/Bitcoin.png",link:"https://bitcoin.org/",name:"Bitcoin"},
+        {image:"modules/core/img/skills/Git.png",link:"https://git-scm.com",name:"Git"}];
         
         // not including chrome or photoshop
     
