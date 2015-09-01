@@ -1,3 +1,6 @@
+@import url('http://fonts.googleapis.com/css?family=Special+Elite|Rock+Salt');
+@import url(https://fonts.googleapis.com/css?family=Orbitron:500); /* for "Work Experience" and "Certifications" - should definitly be ASYNC (TODO: Verify If I'm Async or not)*/
+
 .content {
 	margin-top: 50px;
 }
@@ -225,4 +228,29 @@
     .carousel-indicators {
         bottom:20px
     }
+}
+
+
+
+.product-name {
+    padding-right: 20px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.product-description {
+    font-family: 'Special Elite', cursive;
+}
+
+
+.product-thin {
+    font-family: 'Orbitron', cursive;
+}
+
+.product-image {
+    max-width: 400px;
+    display: cover;
+}
+
+.inline-plz {
+    display: inline !important;
 }

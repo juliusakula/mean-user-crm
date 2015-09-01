@@ -3,7 +3,7 @@
         <carousel interval="interval" no-wrap="false" no-transition="true">
             <slide ng-repeat="slide in slides" active="slide.active">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> <a id="{{ slide.name }}" href="{{ slide.link }}"> <img class="cara-items img-responsive" ng-src="{{ slide.image }}" alt="{{ slide.name }}"> </a> 
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> <a id="{{ slide.name }}" href="{{ slide.link }}"> <img class="cara-items img-responsive" ng-src="{{ slide.image }}" alt="{{ slide.name }}"> </a>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3"> <a id="{{slides[getSecondIndex($index+1)].name}}" href="{{slides[getSecondIndex($index+1)].link}}"> <img class="cara-items img-responsive" ng-src="{{slides[getSecondIndex($index+1)].image}}" alt="{{slides[getSecondIndex($index+1)].name}}"> </a> 
                     </div>
