@@ -230,7 +230,9 @@
     }
 }
 
-
+.carousel-control > .glyphicon {
+    color:black;
+}
 
 .product-name {
     padding-right: 20px;
@@ -248,8 +250,12 @@
 
 .product-image {
     max-width: 400px;
+    height: 100%;
     display: cover;
 }
+
+
+
 
 .inline-plz {
     display: inline !important;
