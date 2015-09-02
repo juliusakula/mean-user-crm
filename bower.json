@@ -4,7 +4,7 @@
 	"description": "Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js",
 	"dependencies": {
 		"bootstrap": "~3",
-		"angular": "~1.2",
+        "angular-builds": "https://github.com/DanTup/angular-builds/tarball/1.2.14",
 		"angular-resource": "~1.2",
 		"angular-mocks": "~1.2",
 		"angular-cookies": "~1.2",
