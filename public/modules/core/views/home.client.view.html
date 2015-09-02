@@ -1,33 +1,30 @@
 <section data-ng-controller="HomeController">
-	<div class="jumbotron text-center">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
-				<img alt="MEAN.JS" class="img-responsive text-center" src="modules/core/img/brand/logo.png" />
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<p>
-				<a class="btn btn-primary btn-lg" href="http://meanjs.org" target="_blank">Learn more</a>
-			</p>
-		</div>
-	</div>
     <div class="well">
-        <h1 class="product-thin">Justin Murdock</h1>
-        <h2 class="product-thin">Full Stack Web Developer</h2>
+        <h1 class="product-name">Justin Murdock</h1>
+        <h2 class="product-description">Full Stack Web Developer</h2>
+        <hr style="border-bottom:2px solid black">
         <div class="row">
             <div class="col-md-6">
-                <h3 class="product-thin">Work Experience</h3>
+                <h2 class="product-thin">Work Experience</h2>
                 <div data-ng-include="'/modules/core/views/justin-work-experience.client.view.html'"></div>
             </div>
             <div class="col-md-6">
-                <h3 class="product-thin">Certifications</h3>
+                <h2 class="product-thin">Certifications</h2>
                 <div data-ng-include="'/modules/core/views/justin-certifications.client.view.html'"></div>
             </div>
         </div>
         
+            <!--<div class="row"> <div class="col-md-6">
+                <img src="/modules/core/img/certificates/megaminer.JPG" class="img-responsive" style="width:100%" height="600px">
+            </div>
+            <div class="col-xs-6">
+                <img src="http://i.imgur.com/upz7nFV.jpg" class="img-responsive" style="width:100%" height="200px">
+                <img src="http://i.imgur.com/1BuHSVR.jpg" class="img-responsive" style="width:100%" height="200px">
+                <img src="http://i.imgur.com/08SWQ1v.jpg" class="img-responsive" style="width:100%" height="200px">
+            </div> </div>-->
         <div class="row">
             <div class="col-xs-12">
+                <hr style="border-bottom:2px solid black">
                 <h3 class="product-thin">Justin's Skills</h3>
                 <div class="row" data-ng-include="'/modules/core/views/carousel.client.view.html'"></div>
                 <hr>
@@ -35,7 +32,9 @@
         </div>
         <div class="row">
             <div class="col-xs-12">
+                <hr style="border-bottom:2px solid black">
                 <h3 class="product-thin">Justin's Projects</h3>
+                <div class="row" data-ng-include="'/modules/core/views/projects.client.view.html'"></div>
             </div>
         </div>
     </div>
