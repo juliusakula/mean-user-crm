@@ -8,6 +8,10 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 
 		// Home state routing
 		$stateProvider.
+		state('campaign-monitor', {
+			url: '/campaign-monitor',
+			templateUrl: 'modules/core/views/campaign-monitor.client.view.html'
+		}).
 		state('projects', {
 			url: '/projects',
 			templateUrl: 'modules/core/views/projects.client.view.html'
